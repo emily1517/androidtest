@@ -94,4 +94,4 @@ jobs:
           name: AVD Backup ${{ github.run_id }}
           files: backup/avd-backup.tar.gz
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          mytoken: ${{ secrets.mytoken }}
